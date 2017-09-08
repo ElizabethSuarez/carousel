@@ -59,7 +59,7 @@
   <ItemGroup>
     <Content Include="carousel.aspx" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\css.css" />
+    <Content Include="css\CSS.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="imgcarousel\5Momentos.png" />
     <Content Include="imgcarousel\ejemplo.png" />
@@ -68,6 +68,8 @@
     <Content Include="js\Carousel.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\modal.js" />
+    <Content Include="js\modall.js" />
+    <Content Include="Video\UsoDelExtintor.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +87,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Video\UsoDelExtintor.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

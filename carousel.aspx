@@ -8,11 +8,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link href="css/css.css" rel="stylesheet" />
-
+    <link href="css/CSS.css" rel="stylesheet" />
     <title>HOSPITAL BENEFICENCIA ESPAÑOLA DE PUEBLA</title>
 </head>
-<body>    
+<body>      
     <form id="form1" runat="server">  
         <div class="container">
                 <br />
@@ -21,10 +20,11 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
+                    <!-- Envoltorio para diapositivas -->
+                    <div class="carousel-inner " role="listbox">
                         <div class="item active text-center">
                             <asp:Image ImageUrl="/imgcarousel/ejemplo.png" ID="p1" runat="server"/>  
                             <div class="carousel-caption">
@@ -34,14 +34,17 @@
 
                         <div class="item text-center">
                             <asp:Image ImageUrl="/imgcarousel/ejemplo.png" ID="p2" runat="server"/>
-                            <%--<img class="p2" src="imgcarousel/ejemplo.png" alt="Segundo" />--%>
                             <div class="carousel-caption">
-                                <h3>be2</h3>
+                                <%--<h3>be2</h3>--%>
                             </div>
+                        </div>
+                        <div class="item text-center">
+                            <asp:Image ImageUrl="/imgcarousel/ejemplo.png" ID="p3" runat="server" />
+                            <div class="carousel-caption"></div>
                         </div>
                     </div>
 
-                    <!-- Left and right controls -->
+                    <!-- Controles izquierdo y derecho-->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                     
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -53,31 +56,36 @@
                     </a>
                 </div>
 
-        <!--modal1-0-->
+        <!--modals--->
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
                 <div id="inf1" class="modal-content text-center" runat="server">
-                    <asp:Image ID="Image1" runat="server" ImageUrl="/imgcarousel/img7.jpg" />
-                    <%--<asp:Label ID="Label1" CssClass="modal-content" runat="server">primera</asp:Label>--%>
+                    <asp:Image CssClass="img-responsive center-block" ID="Image1" runat="server" ImageUrl="/imgcarousel/img7.jpg" />
                 </div>
                 <div id="caption"></div>
             </div>
 
 
-             <div id="myModal1" class="modal">
-                <span class="close1">&times;</span>
+             <div id="myModal2" class="modal">
+                <span class="close2">&times;</span>
                 <div id="inf2" class="modal-content text-center" runat="server">
-                    <asp:Image ID="Image3" runat="server" ImageUrl="/imgcarousel/5Momentos.png" />
-                    <%--<asp:Label ID="Label1" CssClass="modal-content" runat="server">primera</asp:Label>--%>
+                    <asp:Image CssClass=" img-responsive center-block" ID="Image3" runat="server" ImageUrl="/imgcarousel/5Momentos.png" />
                 </div>
+                 <div id="caption2"></div>
+              </div>
 
-                <div id="caption1"></div>
-            </div>
+             <div id="myModal3" class="modal">
+                <span class="close3">&times;</span>
+                <div id="inf3" class="modal-content text-center" runat="server">
+                    <video  class="img-responsive center-block" autoplay="autoplay" controls="controls">
+                        <source src="Video/UsoDelExtintor.mp4" type="video/mp4" />
+                        <source src="Video/UsoDelExtintor.webm" type="video/webm" />
+                    </video>
+                </div>                 
+                <div id="caption3"></div>
+             </div>
 
-
-            <script src="js/modal.js"></script>
-        <!-- Termina Modal-->
- 
+            <script src="js/modall.js"></script>
         </div>
         <script src="js/Carousel.js"></script>
     </form>                

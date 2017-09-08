@@ -40,6 +40,15 @@ namespace carousel {
         protected global::System.Web.UI.WebControls.Image p2;
         
         /// <summary>
+        /// Control p3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image p3;
+        
+        /// <summary>
         /// Control inf1.
         /// </summary>
         /// <remarks>
@@ -74,5 +83,14 @@ namespace carousel {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image3;
+        
+        /// <summary>
+        /// Control inf3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl inf3;
     }
 }
