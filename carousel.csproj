@@ -60,17 +60,32 @@
     <Content Include="carousel.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\CSS.css" />
+    <Content Include="css\estilo.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="imgcarousel\5Momentos.png" />
-    <Content Include="imgcarousel\ejemplo.png" />
-    <Content Include="imgcarousel\img7.jpg" />
+    <Content Include="imgcarousel\ched1.png" />
+    <Content Include="imgcarousel\cod5.png" />
+    <Content Include="imgcarousel\codEmerg.png" />
+    <Content Include="imgcarousel\higieneManos3.png" />
+    <Content Include="imgcarousel\higieneManos5.png" />
+    <Content Include="imgcarousel\lava2.png" />
+    <Content Include="imgcarousel\nivelesRiesgo.png" />
+    <Content Include="imgcarousel\NRiesgos3.png" />
+    <Content Include="imgcarousel\USOext.png" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\Carousel.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\modal.js" />
     <Content Include="js\modall.js" />
-    <Content Include="Video\UsoDelExtintor.mp4" />
-    <Content Include="Web.config" />
+    <Content Include="imgcarousel\ched0.png" />
+    <Content Include="imgcarousel\tipFuego1.png" />
+    <Content Include="imgcarousel\extintor.png" />
+    <Content Include="imgcarousel\infoChed.png" />
+    <Content Include="imgcarousel\tipFuego.png" />
+    <Content Include="js\modalll.js" />
+    <Content Include="video\UsoDelExtintor.mp4" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="carousel.aspx.cs">
@@ -87,7 +102,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Video\UsoDelExtintor.webm" />
+    <Content Include="video\UsoDelExtintor.webm" />
+    <Content Include="video\UsoDelExtintor.vtt" />
+    <Content Include="video\UsoDelExtintor.srt" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

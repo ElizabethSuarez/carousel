@@ -78,5 +78,3 @@ var span5 = document.getElementsByClassName("close5")[0];
 span5.onclick = function () {
     modal5.style.display = "none";
 }
-
-
